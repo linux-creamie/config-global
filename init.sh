@@ -167,3 +167,13 @@ userad -d /var/net -u 23 net &&
 usermod -aG wheel net &&
 chown -R net:net /var/net &&
 passwd net
+
+
+## NOTIF
+
+echo "
+1. config cmdline 01-boot.conf
+2. config /etc/crypttab
+3. add complement userneed
+4. generate initramfs
+"
