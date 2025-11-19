@@ -54,6 +54,7 @@ pacman -S wireless-regdb \
     pipewire-pulse \
     ttf-droid \
     kitty-terminfo \
+    bash-completion \
     git \
     wget \
     unzip \
